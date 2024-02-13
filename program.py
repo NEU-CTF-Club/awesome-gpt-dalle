@@ -1,6 +1,7 @@
 from openai import OpenAI
-
-userkey = input("Enter your api key I won't give you mine")
+import sys
+#pass in ur api key here
+userkey = sys.argv[1]
 
 client = OpenAI(api_key=userkey)
 
