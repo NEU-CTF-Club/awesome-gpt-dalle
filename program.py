@@ -1,6 +1,8 @@
 from openai import OpenAI
 
-client = OpenAI()
+userkey = input("Enter your api key I won't give you mine")
+
+client = OpenAI(api_key=userkey)
 
 prompt = input("Enter your image prompt: ")
 
