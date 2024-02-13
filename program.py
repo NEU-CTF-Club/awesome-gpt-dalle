@@ -1,6 +1,6 @@
 from openai import OpenAI
 
-client = OpenAI(api_key="sk-YouWinAndFoundMyGPTKey!GoGetY0urPrize")
+client = OpenAI()
 
 prompt = input("Enter your image prompt: ")
 
