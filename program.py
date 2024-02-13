@@ -1,6 +1,7 @@
 from openai import OpenAI
 import sys
 #pass in ur api key here
+#TODO add option to store in environment variable ?
 userkey = sys.argv[1]
 
 client = OpenAI(api_key=userkey)
